@@ -1,0 +1,90 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 750px;
+  height: 550px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+header {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+}
+
+.subtext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(0,221,0,255);
+}
+
+.nav-bar {
+  text-align: center;
+  background-color: rgba(0,221,0,255);
+  width: 82%;
+  margin: auto;
+}
+
+/* messo margini ai button altrimenti se li metto al text la barra viene con i margini disuguali rispetto ai bordi del button */
+button {
+  font-size: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+main {
+  margin: auto;
+  width: 85%;
+}
+.monopattino {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+/* cambiato dimensione e allineamento ai checkbox come da immagine di riferimento */
+input[type=checkbox] {
+  transform: scale(0.7);
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+span {
+  font-size: 15px;
+  font-weight: 660;
+}
+
+.charge-bar {
+
+  height: 12px;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.charge-bar1 {
+  background-color: rgba(245,180,83,255);
+  width: 35%;
+}
+
+.charge-bar2 {
+  background-color: rgba(0,221,0,255);
+  width: 55%;
+}
+
+.charge-bar3 {
+  background-color: rgba(190,65,65,255);
+  width: 15%;
+}
